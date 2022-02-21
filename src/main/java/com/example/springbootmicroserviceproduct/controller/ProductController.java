@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/product")
+@RequestMapping("/api/product")
 public class ProductController {
 
     private final IProductService productService;
